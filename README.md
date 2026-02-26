@@ -40,3 +40,5 @@ Command used to generate this template:
 ```bash
 pnpm dlx shadcn@latest create --preset "https://ui.shadcn.com/init?base=radix&style=nova&baseColor=neutral&theme=violet&iconLibrary=lucide&font=inter&menuAccent=subtle&menuColor=default&radius=default&template=next&rtl=false" --template next
 ```
+
+Deploy to GitHub Pages from [here](https://github.com/nextjs/deploy-github-pages)

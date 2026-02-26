@@ -1,17 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-    images: {
-        remotePatterns: [
-            {
-                protocol: "https",
-                hostname: "images.unsplash.com",
-                port: "",
-                pathname: "**"
-            }
-        ]
-    }
+    output: 'export',
+    basePath: process.env.PAGES_BASE_PATH,
 };
 
 export default nextConfig;
