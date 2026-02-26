@@ -9,7 +9,7 @@ export default function Page() {
                         <p className="text-2xl text-center">🚧 Welcome! 🚧</p>
                     </div>
                     <div className="text-foreground bg-background p-4">
-                        <p>This site is under construction right now, please check back later. ^_^</p>
+                        <p>This site is under construction right now,<br />please check back later. ^_^</p>
                     </div>
                 </div>
             </Card>
